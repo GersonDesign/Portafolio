@@ -1,0 +1,32 @@
+
+@import url('http://responsivemobilemenu.com/demo/rmm-css/responsivemobilemenu.css')
+@import 'nib/vendor'
+
+vendor-prefixes = moz o ms webkit official
+
+sombra = 1px 5px 5px #DADADA
+
+figure
+	margin 0
+	padding 0
+	
+img
+	max-width 100%
+
+#anchor
+#colophon
+#comments
+	display none
+
+
+.content_portafolio
+	.bloque-B
+		figure
+			img
+				text-shadow sombra
+				
+@media screen and (min-width: 1023px)
+	.content_portafolio
+		.bloque-B
+			display flex
+	
